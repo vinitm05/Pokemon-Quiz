@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeQuiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h4 id="result" class="header">Who's that pokemon?</h4>
+      <img alt="Pokemon Image" id="pokemonImage" />
+      <div id="options" class="option-container">
+      </div>
+      <h4 id="points">Points: <span id="pointsValue">0</span>/<span id="totalCount">0</span></h4>
+    </div>
+    <div id="loadingContainer" class="loading-container">
+        <img src="loading_icon.gif" alt="loading..." id="loadingIcon">
+    </div>
+  </body>
+</html>
